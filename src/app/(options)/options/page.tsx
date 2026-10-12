@@ -45,15 +45,6 @@ export default function PaymentOptionsPage() {
                     <p className='text-center text-sm text-slate-300'>Componente completo para tarjetas, dinero en cuenta y efectivo.</p>
                 </Link>
 
-                {/* Enlace al Card Payment */}
-                <Link
-                    href='/card-payment'
-                    className='flex flex-col items-center justify-center rounded-lg border border-slate-600 bg-slate-800 p-8 transition-colors hover:border-slate-400 hover:bg-slate-700 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-600'
-                >
-                    <h2 className='mb-2 text-xl font-semibold text-slate-100'>Card Payment Brick</h2>
-                    <p className='text-center text-sm text-slate-300'>Componente exclusivo para procesar tarjetas de crédito y débito.</p>
-                </Link>
-
                 <Link
                     href='/checkout-pro'
                     className='flex flex-col items-center justify-center rounded-lg border border-slate-600 bg-slate-800 p-8 text-center transition-colors hover:border-slate-400 hover:bg-slate-700 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-600'
